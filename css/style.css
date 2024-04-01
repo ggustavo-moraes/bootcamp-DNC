@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 0px;
+  font-family: "Inter";
+  background: linear-gradient(
+      180deg,
+      rgba(12, 112, 242, 0.5) 40%,
+      rgba(12, 112, 242, 0) 50%
+    ),
+    #303030;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #303030;
+  padding: 35px 0px 35px 96px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-menu a {
+  text-decoration: none;
+  padding: 10px 32px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.header-menu a:hover {
+  color: #c2c2c2;
+}
+
+button {
+  background-color: #0c70f2;
+  margin-right: 5%;
+  color: #fff;
+  padding: 7px 13px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+}
+
+button:hover {
+  background-color: #0b4694;
+}
+
+.main-bg {
+  /*background: linear-gradient(#0c70f2 50%, #303030);
+  border: 1px solid #bababa;*/
+}
+
+.main {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.titulo {
+  font-size: 80px;
+  font-weight: 800px;
+}
+
+.subtitulo {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.subtitulo span {
+  background-color: #000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.form-grup {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 600px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.form-place {
+  border: none;
+  border-radius: 5px;
+  height: 56px;
+  width: 630px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.7);
+}
+
+.button {
+  background-color: #0c70f2;
+  margin-left: 100px;
+  margin-top: 100px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  width: 630px;
+  height: 56px;
+  box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+}
